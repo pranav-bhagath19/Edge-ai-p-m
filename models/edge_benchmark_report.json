@@ -1,0 +1,26 @@
+{
+  "rul_model": {
+    "model_name": "RUL Prediction (RandomForestRegressor)",
+    "size_before_kb": 14180.3,
+    "size_after_kb": 3876.1,
+    "compression_ratio": 3.66,
+    "inference_latency_ms": {
+      "mean_ms": 2.932,
+      "p95_ms": 3.077,
+      "min_ms": 2.704,
+      "max_ms": 4.386
+    }
+  },
+  "anomaly_model": {
+    "model_name": "Anomaly Detection (IsolationForest)",
+    "size_before_kb": 1834.5,
+    "size_after_kb": 517.2,
+    "compression_ratio": 3.55,
+    "inference_latency_ms": {
+      "mean_ms": 1.454,
+      "p95_ms": 1.553,
+      "min_ms": 1.351,
+      "max_ms": 1.807
+    }
+  }
+}
